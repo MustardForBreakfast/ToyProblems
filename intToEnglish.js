@@ -11,7 +11,7 @@ var integers = {
   7 : 'seven',
   8 : 'eight',
   9 : 'nine'
-}
+};
 
 var tens = {
   10 : 'ten',
@@ -32,7 +32,7 @@ var tens = {
   70 : 'seventy',
   80 : 'eighty',
   90 : 'ninety'
-}
+};
 
 var orders = {
   100 : 'hundred',
@@ -41,7 +41,7 @@ var orders = {
   1000000000 : 'billion',
   1000000000000 : 'trillion',
   1000000000000000 : 'quadrillion'
-}
+};
 
 function intToEnglish(number){
   var finalString = '';
