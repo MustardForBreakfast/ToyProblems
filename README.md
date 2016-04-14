@@ -4,4 +4,4 @@ My solutions to regular practice problems. I get many of my prompts from codewar
 
 ## Reviewing this Repo
 
-Each prompt has its own .js file, which contains paraphrased instructions for each prompt in the first few lines.
+Each prompt has its own .js file, which contains paraphrased instructions for the prompt along with my solution code.
