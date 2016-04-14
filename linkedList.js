@@ -44,17 +44,15 @@ LinkedList.prototype = {
   contains : function(value){
     // Iterates from head to tail checking for the presence
     // of a searched value. Returns a bool accordingly.
-    var contained = false;
     var current = this.head;
     while (current){
       if (current.value === value){
-        contained = true;
-        return contained;
+        return true;
       } else {
         current = current.next;
       }
     }
-    return contained;
+    return false;
   },
   
   createNode : function(value){
