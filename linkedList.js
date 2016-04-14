@@ -59,7 +59,7 @@ LinkedList.prototype = {
     // Generates a new node object with a given value.
     return {
       'value' : value,
-      'next' : null,
+      'next' : null
     }
   }
 }
