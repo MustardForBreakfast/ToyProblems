@@ -137,7 +137,7 @@ function intToEnglish(number){
       } else {
           setSingleDigit(digits[0]);
           finalString += magObj.order + ' ';
-          //chop of first element from digits
+          //chop off first element from digits
           digits.shift();
       }
     }
