@@ -42,7 +42,7 @@ LinkedList.prototype = {
   }, 
   
   contains : function(value){
-    // Iterates from head to tail checking for the presence
+    // Traverses list from head to tail checking for the presence
     // of a searched value. Returns a bool accordingly.
     var current = this.head;
     while (current){
