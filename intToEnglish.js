@@ -1,4 +1,4 @@
-// For a given positive integer, convert it into its English representation. 
+// For a given positive integer, convert it into its English representation and log it to the console. 
 
 var integers = {
   0 : 'zero',
